@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#B8860B">
+<title>Doman Jewellers Jaipur | Best Gold, Silver &amp; Diamond Jewellery Store in Jhotwara</title>
+<meta name="description" content="Visit Doman Jewellers in Jhotwara, Jaipur for the finest Gold, Silver, and Diamond jewellery at the best prices. Rated 5 stars for quality, service, and heavy discounts. Open 7 days a week. Call 098297 93490.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:#1a1209;background:#fdfcf7;-webkit-font-smoothing:antialiased}
+.wa-float{position:fixed;bottom:24px;right:24px;z-index:9999;background:#25d366;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.45);text-decoration:none;transition:transform .2s}.wa-float:hover{transform:scale(1.1)}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(253,252,247,.96);backdrop-filter:blur(12px);border-bottom:1px solid #ede0c4;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nav-brand{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:600;color:#B8860B;letter-spacing:.04em}
+.nav-cta{background:#F5E6C8;color:#fff;padding:9px 22px;border-radius:2px;text-decoration:none;font-size:.82rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+/* HERO */
+.hero{position:relative;height:100svh;min-height:600px;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:-15%;width:130%;height:130%;background-image:url('https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=1600&q=85&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(10,6,0,.88) 0%,rgba(10,6,0,.5) 55%,rgba(10,6,0,.15) 100%)}
+.hero-content{position:relative;z-index:2;padding:0 5vw;max-width:600px;color:#fff}
+.hero-eyebrow{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#F5E6C8;margin-bottom:20px;font-weight:500}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,5.5vw,3.8rem);font-weight:700;line-height:1.18;margin-bottom:18px;letter-spacing:-.01em}
+.hero p{font-size:clamp(.9rem,2vw,1.05rem);opacity:.82;line-height:1.75;margin-bottom:30px;max-width:460px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-gold{background:#F5E6C8;color:#fff;padding:14px 32px;text-decoration:none;font-weight:600;font-size:.88rem;letter-spacing:.08em;text-transform:uppercase;border-radius:2px}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,.45);color:#fff;padding:13px 28px;text-decoration:none;font-size:.88rem;letter-spacing:.06em;text-transform:uppercase;border-radius:2px}
+/* TRUST */
+.trust-bar{background:#B8860B;display:grid;grid-template-columns:repeat(2,1fr)}
+@media(min-width:640px){.trust-bar{grid-template-columns:repeat(4,1fr)}}
+.trust-item{padding:20px 16px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}
+.trust-item:last-child{border:none}
+.trust-num{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:#F5E6C8;line-height:1}
+.trust-lbl{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-top:4px}
+/* ABOUT */
+section{padding:64px 5vw}
+.container{max-width:1000px;margin:0 auto}
+.sec-label{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:#F5E6C8;margin-bottom:8px}
+.about-grid{display:grid;grid-template-columns:1fr;gap:40px}
+@media(min-width:768px){.about-grid{grid-template-columns:1fr 1fr;align-items:center}}
+.about-img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:2px}
+.about-text h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#B8860B;margin-bottom:18px}
+.about-text p{color:#5a4a30;line-height:1.85;margin-bottom:14px;font-size:.93rem}
+.hl-list{list-style:none;margin-top:18px;border-top:1px solid #ede0c4}
+.hl-list li{padding:9px 0 9px 22px;position:relative;color:#5a4a30;font-size:.87rem;border-bottom:1px solid #ede0c4}
+.hl-list li:before{content:'◆';color:#F5E6C8;position:absolute;left:0;font-size:.55rem;top:12px}
+/* COLLECTION */
+.collection-bg{background:#f9f5ec}
+.catalog-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:36px}
+@media(min-width:480px){.catalog-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.catalog-grid{grid-template-columns:repeat(3,1fr)}}
+.cat-card{background:#fff;border:1px solid #ede0c4;border-radius:2px;padding:26px;transition:box-shadow .2s}
+.cat-card:hover{box-shadow:0 6px 24px rgba(0,0,0,.1)}
+.cat-card h3{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#B8860B;margin-bottom:8px}
+.cat-card p{color:#7a6040;font-size:.87rem;line-height:1.65}
+/* PARALLAX */
+.parallax-strip{position:relative;min-height:340px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.pstrip-bg{position:absolute;inset:-20%;width:140%;height:140%;background-image:url('https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=1200&q=80&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.pstrip-overlay{position:absolute;inset:0;background:rgba(10,6,0,.72)}
+.pstrip-content{position:relative;z-index:2;text-align:center;color:#fff;padding:48px 5vw;max-width:600px}
+.pstrip-content h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:14px}
+.pstrip-content p{opacity:.75;margin-bottom:28px;font-size:.95rem}
+/* GALLERY */
+.gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media(min-width:600px){.gallery-grid{grid-template-columns:repeat(3,1fr)}}
+.gallery-grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:2px;transition:opacity .3s}
+.gallery-grid img:hover{opacity:.85}
+/* REVIEWS */
+.reviews-bg{background:#1a1209;color:#fff}
+.rv-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:32px}
+@media(min-width:640px){.rv-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.rv-grid{grid-template-columns:repeat(3,1fr)}}
+.rv-card{border:1px solid rgba(255,255,255,.08);padding:24px;border-radius:2px;position:relative}
+.rv-card:before{content:'"';position:absolute;top:-6px;left:16px;font-size:3.5rem;color:#F5E6C8;opacity:.25;font-family:'Cormorant Garamond',serif;line-height:1}
+.rv-stars{color:#F5E6C8;margin-bottom:10px}
+.rv-text{color:rgba(255,255,255,.65);font-size:.9rem;line-height:1.7;font-style:italic;margin-bottom:14px}
+.rv-author{color:rgba(255,255,255,.4);font-size:.82rem;font-weight:600;letter-spacing:.04em}
+/* CTA */
+.cta-section{background:#B8860B;color:#fff;text-align:center;padding:64px 5vw}
+.cta-section h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:14px}
+.cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+footer{background:#0a0600;color:#7a6040;text-align:center;padding:22px;font-size:.78rem;letter-spacing:.03em}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nav-brand">Doman Jewellers - Gold | Silver | Diamond | Best Jewellers in Jaipur</span>
+  <a href="https://wa.me/919829793490?text=Hello%20Doman%20Jewellers!%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20jewellery%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20designs%20and%20pricing%3F%20Thank%20you!" class="nav-cta">Enquire Now</a>
+</nav>
+<div class="hero">
+  <div class="hero-bg" id="hp"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Rajasthan 302012, India</div>
+    <h1>Where Every Jewel Tells Your Story</h1>
+    <p>Jaipur's most trusted destination for Gold, Silver, and Diamond jewellery — crafted for every occasion, priced for everyone.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/919829793490?text=Hello%20Doman%20Jewellers!%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20jewellery%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20designs%20and%20pricing%3F%20Thank%20you!" class="btn-gold">Visit Us Today &amp; Get Exclusive Discounts</a>
+      <a href="tel:098297 93490" class="btn-ghost">📞 Call Us</a>
+    </div>
+  </div>
+</div>
+<div class="trust-bar">
+  <div class="trust-item"><div class="trust-num">5/5</div><div class="trust-lbl">Rating</div></div>
+  <div class="trust-item"><div class="trust-num">✓</div><div class="trust-lbl">Verified</div></div>
+  <div class="trust-item"><div class="trust-num">100%</div><div class="trust-lbl">Authentic</div></div>
+  <div class="trust-item"><div class="trust-num">BIS</div><div class="trust-lbl">Certified</div></div>
+</div>
+<section>
+  <div class="container">
+    <div class="about-grid">
+      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEF3PPrfDL-D76r2EmOS8MDreGpkMCcrOGSf4RTL9fPdR-TLlyI8_pqNAonHnoRVD3_uLvvG2MVH5eb2b3Z_bEcAzRAZO8xgG077up3vT5c89KUIJLiRjsGdlJnMpoHVGMb4dPYRimP4VzU_CKluG5WMg6vkb9bLTRzywfhxva9FItD6qInerMWXaTq6ZBas2_DrBcf8gXh-wbLoFj56qVh9-9wIEP4mR-xU34AUs7iBfcXeDIGDWXbnRwvNBT9LUTM9_UFl7PvB_-UZjPQO4n_ZylY8z6jpxhbTl23uVP7Sgw&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Doman Jewellers - Gold | Silver | Diamond | Best Jewellers in Jaipur" class="about-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=1600&q=85&fit=crop&auto=format'">
+      <div class="about-text">
+        <p class="sec-label">Our Legacy</p>
+        <h2>Doman Jewellers - Gold | Silver | Diamond | Best Jewellers in Jaipur</h2>
+        <p>Doman Jewellers is a premier jewellery store located in the heart of Jhotwara, Jaipur, offering an exquisite collection of Gold, Silver, and Diamond jewellery. Known for our warm hospitality and transparent pricing, we have earned the trust of families across Jaipur who return to us for every milestone — from weddings and engagements to everyday elegance. Our showroom at Mini Market Road, near RC Plaza, welcomes you with a pleasant atmosphere and a team that treats every customer like family.</p><p>At Doman Jewellers, we believe that fine jewellery should be accessible without compromising on quality. Our pieces are crafted with precision and passion, delivering the best quality at honest, competitive prices. With a perfect 5-star rating and glowing reviews from our valued customers, we take pride in offering heavy discounts, exceptional craftsmanship, and a shopping experience that is as memorable as the jewellery itself. Open all seven days a week from 9:00 AM to 9:00 PM, we are always here for you.</p>
+        <ul class="hl-list"><li>Perfect 5-Star Rating — Trusted by hundreds of happy customers across Jaipur</li><li>Best Prices Guaranteed — Premium quality Gold, Silver &amp; Diamond jewellery at honest, competitive rates with heavy discounts</li><li>Open 7 Days a Week, 9 AM to 9 PM — Always available for your jewellery needs</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="collection-bg">
+  <div class="container">
+    <p class="sec-label">Collection</p>
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#B8860B;margin-bottom:8px">Our Offerings</h2>
+    <div class="catalog-grid"><div class="cat-card"><h3>Gold Jewellery</h3><p>Explore a stunning range of gold jewellery including necklaces, bangles, rings, earrings, and bridal sets — all at the best prices in Jaipur.</p></div><div class="cat-card"><h3>Silver Jewellery</h3><p>Elegant and affordable silver jewellery crafted for everyday wear and festive occasions, available in a variety of traditional and modern designs.</p></div><div class="cat-card"><h3>Diamond Jewellery</h3><p>Certified and beautifully set diamond jewellery for those special moments — from solitaire rings to diamond-studded necklaces and earrings.</p></div><div class="cat-card"><h3>Bridal Jewellery</h3><p>Make your wedding unforgettable with our exclusive bridal jewellery collections in gold, silver, and diamond — curated for the modern Indian bride.</p></div><div class="cat-card"><h3>Custom Jewellery Design</h3><p>Bring your dream design to life with our custom jewellery service — we work with you to craft a piece that is uniquely yours.</p></div><div class="cat-card"><h3>Jewellery Exchange &amp; Upgrade</h3><p>Exchange your old gold or silver jewellery and upgrade to new designs with ease, ensuring you always wear the latest and finest pieces.</p></div></div>
+  </div>
+</section>
+<div class="parallax-strip">
+  <div class="pstrip-bg" id="ps"></div>
+  <div class="pstrip-overlay"></div>
+  <div class="pstrip-content">
+    <h2>Visit Our Store</h2>
+    <p>Shop No 3, Mini Market Rd, near Rc Plaza, Hanumant Nagar, Gokulpura, Jhotwara, Jaipur, Rajasthan 302012, India</p>
+    <a href="https://wa.me/919829793490?text=Hello%20Doman%20Jewellers!%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20jewellery%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20designs%20and%20pricing%3F%20Thank%20you!" style="background:#F5E6C8;color:#fff;padding:13px 30px;border-radius:2px;text-decoration:none;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.88rem">💬 WhatsApp Enquiry</a>
+  </div>
+</div>
+<section><div class="container"><p class="sec-label">Gallery</p><h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#B8860B;margin-bottom:28px">Our Store</h2><div class="gallery-grid"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEF3PPrfDL-D76r2EmOS8MDreGpkMCcrOGSf4RTL9fPdR-TLlyI8_pqNAonHnoRVD3_uLvvG2MVH5eb2b3Z_bEcAzRAZO8xgG077up3vT5c89KUIJLiRjsGdlJnMpoHVGMb4dPYRimP4VzU_CKluG5WMg6vkb9bLTRzywfhxva9FItD6qInerMWXaTq6ZBas2_DrBcf8gXh-wbLoFj56qVh9-9wIEP4mR-xU34AUs7iBfcXeDIGDWXbnRwvNBT9LUTM9_UFl7PvB_-UZjPQO4n_ZylY8z6jpxhbTl23uVP7Sgw&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Doman Jewellers - Gold | Silver | Diamond | Best Jewellers in Jaipur" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHXYtp-8q2mPn9LjCMHgVv4gXDaG-YWzHNFXg18Iz497Mph3dOFwHILt00hA1k-9TTqW3WLaTLjIwBz2Dn-Y01-P8SqyLUk00poo67gYGNoTY4VVUrr4pJfMY643uPdNADV2axIHus6gCO53FaUWom7VHh0bhaOlTMTEeJmpKagvWK6qr5TDcSEe96h6uddfDUFy892zXV8IaKtFYx9NIi6xYj73fCYQIaIRpcV8zJRomEAbw_aEZGetvKGKjuGmgADWo8cElfiH06GVykJtuMffsfqdL4Y8nJvncPVe0R9ew&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Doman Jewellers - Gold | Silver | Diamond | Best Jewellers in Jaipur" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEEl9_sBAUbbCWNRREU6YxOMAuBXEZ4kuofo8ONiv7MFxwcQUgsyrlTAdlLgHCA5K1sejwnsT_7o8Ou7-x94wedEskc-wrAueSho2ctrXajdyKBuvMaAmETl18lOVAEfGqmll-wJMf06MV3LHGztDOzZnRPrizdQy0cu0Q72Fl2wK1BlijeGd0hOkDa86P3YmErAPd9zLm4FMWUAfJxM2oSln0nUPARJpk_fD8fVqA8zfnjOqMsyXowVIF-blzcZY2vFtOV9V7B26D7tjQRQa79dTB_6MUt13mQKGC-UGt5Bx-2PWK00kM3IC87J6CGH3-dXrj4saEI0nFjd0d6ZANSeaIvEoneiXATFB2l7dJGUXEZn-wXOMbCb6MGpkUZ2P6KAJNlO8ge7UKHxu4WmRa6NmXkoXou78lxylJFmqYz3kBhovb1Jaj4eN2WvsQ&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Doman Jewellers - Gold | Silver | Diamond | Best Jewellers in Jaipur" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEGKpxnw47TDJ-zRv-6geWZxCtMmwUrwTW1wU_1xbflfzpSHuoKi-3ghxIZvl_JCNzez4IbtMsyD3qvevYz9kP4xRHCxDXI_K5bApqBsImDRoOWi9D77vMET6VOnTwM5LWgEZnR5mY8fxSIqO-BXYBYk17Cshmy-8ASvolJlROLd2pokaP7pmnRfIY0RNGksRsuchVT3b5LMIu59f-KcDnhKQKMI1m23B_ZGVmwv63hXEbQG-GbNkA1LQuceHgpO8AnJpYbh-2VE5Xi01gkyuuhYFOVMODP_7bOr7zhbTtkW3A&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Doman Jewellers - Gold | Silver | Diamond | Best Jewellers in Jaipur" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEFf6g-Wu4-Sv8pu1hfZlz1VTAkRhUaB4J9iMLyX3PLBGJH1DLlTPSJu0Al-fl-dy5gAmy2pzJowqdkra5QrEESma_qYAjr91J67Zh83EZHnWnUpSsT40BZJDtPV_NR6qx48lk5s65ONO1qjMVcTPZfGLiOh0hmipcZv_WrAhXW7c5WMZeNcAd3WWlZcYS31MSWdXVrnFqJ77VE6No-6PrQCqPDOKlzg0aAvua5xG6uj0tA5R-zd-TZe7wZ0yfFxXQIftGxybZNdJ-GthT7rgLC7eUrQg907Gx99VPJVQAXEOg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="Doman Jewellers - Gold | Silver | Diamond | Best Jewellers in Jaipur" loading="lazy" onerror="this.parentElement.remove()"></div></div></section>
+<section class="reviews-bg">
+  <div class="container">
+    <p class="sec-label" style="color:rgba(255,255,255,.4)">Reviews</p>
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#fff;margin-bottom:8px">Customer Stories</h2>
+    <div class="rv-grid"><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Such a gentle behaviour of the staff and pleasant atmosphere. Truly a wonderful shopping experience!</p><div class="rv-author">— Deepak Kumar</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Best price Gold shop in Jaipur. I compared many stores and Doman Jewellers gave me the best deal without any compromise on quality.</p><div class="rv-author">— Rajveer Singhtanwar</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Like the ambiance and behaviour — and heavy discount too! Will definitely come back for my next purchase.</p><div class="rv-author">— Adi Kumar</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Best quality in basic price. 100% recommended to everyone looking for genuine jewellery in Jaipur.</p><div class="rv-author">— Chandu Sharma</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Good jewellery with a great variety of designs. Very happy with my purchase from Doman Jewellers.</p><div class="rv-author">— Hema Chouhan</div></div></div>
+  </div>
+</section>
+<div class="cta-section">
+  <p class="sec-label" style="color:rgba(255,255,255,.5)">Come See Us</p>
+  <h2>Experience the Difference</h2>
+  <p style="opacity:.75;max-width:480px;margin:0 auto;font-size:.95rem">Shop No 3, Mini Market Rd, near Rc Plaza, Hanumant Nagar, Gokulpura, Jhotwara, Jaipur, Rajasthan 302012, India · Monday: 9:00 AM – 9:00 PM | Tuesday: 9:00 AM – 9:00 PM | Wednesday: 9:00 AM – 9:00 PM | Thursday: 9:00 AM – 9:00 PM | Friday: 9:00 AM – 9:00 PM | Saturday: 9:00 AM – 9:00 PM | Sunday: 9:00 AM – 9:00 PM</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/919829793490?text=Hello%20Doman%20Jewellers!%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20jewellery%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20designs%20and%20pricing%3F%20Thank%20you!" class="btn-gold">💬 WhatsApp Us</a>
+    <a href="tel:098297 93490" class="btn-ghost">📞 098297 93490</a>
+    <a href="https://maps.google.com/?cid=12259027184776362050" class="btn-ghost">📍 Get Directions</a>
+  </div>
+</div>
+<footer>© 2026 Doman Jewellers - Gold | Silver | Diamond | Best Jewellers in Jaipur &nbsp;·&nbsp; All Rights Reserved</footer>
+<a href="https://wa.me/919829793490?text=Hello%20Doman%20Jewellers!%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20jewellery%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20designs%20and%20pricing%3F%20Thank%20you!" class="wa-float" title="Chat on WhatsApp" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<script>
+if(window.innerWidth>768){
+  const hp=document.getElementById('hp'),ps=document.getElementById('ps');
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    if(hp)hp.style.transform='translateY('+y*.28+'px)';
+    if(ps){const r=ps.closest('.parallax-strip').getBoundingClientRect();ps.style.transform='translateY('+(r.top*.18)+'px)'}
+  },{passive:true});
+}
+</script>
+</body></html>
